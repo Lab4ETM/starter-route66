@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Echo extends Application
+class Must extends Application
 {
 
 	function __construct()
@@ -9,11 +9,7 @@ class Echo extends Application
 		parent::__construct();
 	}
 
-public function index() {
-//	$this->show(1);	
-}
-
-public function Must::wehave() {
+public function wehave() {
 	$this->show(5);	
 }
 
